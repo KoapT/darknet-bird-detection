@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d94d6aa7-a862-4d6b-9936-6f5ee48178c0" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/dataset.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1664">
+              <caret line="44" column="63" selection-start-line="44" selection-start-column="63" selection-end-line="44" selection-end-column="63" />
+              <folding>
+                <element signature="e#365#374#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/yolov3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7084">
+              <caret line="327" selection-start-line="327" selection-end-line="327" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="199" selection-start-line="199" selection-end-line="199" />
+              <folding>
+                <element signature="e#363#372#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.conda/envs/py35/lib/python3.5/site-packages/tensorflow/python/summary/summary.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4708">
+              <caret line="255" column="23" selection-start-line="255" selection-start-column="23" selection-end-line="255" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.conda/envs/py35/lib/python3.5/site-packages/tensorflow/python/summary/writer/writer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2112">
+              <caret line="115" column="16" selection-start-line="115" selection-start-column="16" selection-end-line="115" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/evaluate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+              <folding>
+                <element signature="e#364#374#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image_demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="638">
+              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+              <folding>
+                <element signature="e#38#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6556">
+              <caret line="303" column="19" selection-start-line="303" selection-start-column="19" selection-end-line="303" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/video_demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="726">
+              <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>data_path</find>
+      <find>process</find>
+      <find>image_preporcess</find>
+      <find>model</find>
+      <find>DATA_AUG</find>
+      <find>data_format</find>
+      <find>DEMO_WEIGHT</find>
+      <find>INITIAL_WEIGHT</find>
+      <find>ORIGINAL_WEIGHT</find>
+      <find>INPUT_SIZE</find>
+      <find>ANCHORS</find>
+      <find>label</find>
+      <find>preprocess_true_boxes</find>
+      <find>iou</find>
+      <find>respond_bgd</find>
+      <find>np.copy(</find>
+      <find>bboxes</find>
+      <find>copy</find>
+      <find>c</find>
+      <find>summary</find>
+      <find>YOLOV3</find>
+      <find>summary_writer</find>
+      <find>input_sizes</find>
+      <find>train_input_sizes</find>
+      <find>train_output_sizes</find>
+      <find>output_sizes</find>
+      <find>input_size</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/core/utils.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../../DATA1/BIRD_BACKUP/DATASET/20191205/augmentation.py" />
+        <option value="$PROJECT_DIR$/from_darknet_weights_to_pb.py" />
+        <option value="$PROJECT_DIR$/from_darknet_weights_to_ckpt.py" />
+        <option value="$PROJECT_DIR$/core/common.py" />
+        <option value="$PROJECT_DIR$/freeze_graph.py" />
+        <option value="$PROJECT_DIR$/core/utils.py" />
+        <option value="$PROJECT_DIR$/evaluate.py" />
+        <option value="$PROJECT_DIR$/image_demo.py" />
+        <option value="$PROJECT_DIR$/video_demo.py" />
+        <option value="$PROJECT_DIR$/core/yolov3.py" />
+        <option value="$PROJECT_DIR$/core/config.py" />
+        <option value="$PROJECT_DIR$/core/dataset.py" />
+        <option value="$PROJECT_DIR$/train.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="25" />
+    <option name="width" value="960" />
+    <option name="height" value="1055" />
+  </component>
+  <component name="ProjectId" id="1TrcF3eOjNkv2cZEaP2E6VcdARh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tensorflow-yolov3-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow-yolov3-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tensorflow-yolov3-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tensorflow-yolov3-master" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\tensorflow-yolov3-master\data\examples" />
+      <recent name="E:\tensorflow-yolov3-master" />
+      <recent name="E:\tensorflow-yolov3-master\pb" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.train">
+    <configuration name="evaluate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow-yolov3-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/evaluate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="freeze_graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow-yolov3-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/freeze_graph.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="from_darknet_weights_to_ckpt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow-yolov3-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/from_darknet_weights_to_ckpt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="image_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow-yolov3-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorflow-yolov3-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.evaluate" />
+        <item itemvalue="Python.image_demo" />
+        <item itemvalue="Python.freeze_graph" />
+        <item itemvalue="Python.from_darknet_weights_to_ckpt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d94d6aa7-a862-4d6b-9936-6f5ee48178c0" name="Default Changelist" comment="" />
+      <created>1570590550323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570590550323</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21613073" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49973643" weight="0.0778643" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.18020022" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32925472" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5002636" side_tool="true" weight="0.96662956" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.23581758" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="ptr" />
+        <watch expression="var_weights" />
+        <watch expression="shape" />
+        <watch expression="num_params" />
+        <watch expression="bias_params" />
+        <watch expression="annotation_path" />
+        <watch expression="self.annotation_path" />
+        <watch expression="image_path" />
+        <watch expression="bboxes" />
+        <watch expression="smooth_onehot" />
+        <watch expression="bbox_xywh" />
+        <watch expression="bbox_xywh_scaled" />
+        <watch expression="anchors_xywh" />
+        <watch expression="i" />
+        <watch expression="label" />
+        <watch expression="train_output_sizes" />
+        <watch expression="self.train_output_sizes[i]" />
+        <watch expression="label[i]" />
+        <watch expression="bbox_count[i]" />
+        <watch expression="bboxes_xywh" />
+        <watch expression="iou_scale" />
+        <watch expression="bbox_xywh_scaled[i][np.newaxis, :]" />
+        <watch expression="boxes1" />
+        <watch expression="boxes2" />
+        <watch expression="boxes1_area" />
+        <watch expression="boxes2_area" />
+        <watch expression="left_up" />
+        <watch expression="inter_section" />
+        <watch expression="inter_section[..., 0]" />
+        <watch expression="num_samples" />
+        <watch expression="label_sbbox" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/.conda/envs/py35/lib/python3.5/site-packages/imgaug/augmenters/size.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-414">
+          <caret line="1226" column="60" lean-forward="true" selection-start-line="1226" selection-start-column="60" selection-end-line="1226" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../DATA1/BIRD_BACKUP/DATASET/20191205/augmentation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1263">
+          <caret line="161" column="13" selection-start-line="161" selection-start-column="13" selection-end-line="161" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/examples/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/examples/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/examples/10.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/examples/9.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/examples/8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/examples/6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/examples/5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/dataset/test/w20190829173008684_318.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mAP/extra/convert_gt_xml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mAP/extra/convert_keras-yolo3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <folding>
+            <element signature="e#316#331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mAP/extra/convert_gt_yolo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mAP/extra/convert_pred_yolo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mAP/extra/find_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mAP/extra/intersect-gt-and-pred.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mAP/extra/remove_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mAP/extra/remove_space.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mAP/extra/rename_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mAP/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/from_darknet_weights_to_pb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/from_darknet_weights_to_ckpt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voc_annotation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="68" lean-forward="true" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../img_cover/img_cover.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1289">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/backbone.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-497" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/anchors/coco_anchors.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mAP/results/mAP.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mAP/results/results.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/anchors/basline_anchors.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/dataset/bird_train.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="63" lean-forward="true" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/py35/lib/python3.5/site-packages/tqdm/_tqdm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="1016" selection-start-line="1016" selection-end-line="1016" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/freeze_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="e#371#394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/core/dataset.py" />
+    <entry file="file://$USER_HOME$/.conda/envs/py35/lib/python3.5/site-packages/tensorflow/python/ops/gen_control_flow_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-232">
+          <caret line="487" column="4" selection-start-line="487" selection-start-column="4" selection-end-line="487" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/1807030438/cv2/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="8912" column="4" selection-start-line="8912" selection-start-column="4" selection-end-line="8912" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/py35/lib/python3.5/site-packages/tensorflow/python/framework/ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="4003" selection-start-line="4003" selection-end-line="4003" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/py35/lib/python3.5/site-packages/tensorflow/python/training/supervisor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="221" column="35" lean-forward="true" selection-start-line="221" selection-start-column="35" selection-end-line="221" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/py35/lib/python3.5/site-packages/tensorflow/python/ops/nn_impl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="106" column="4" selection-start-line="106" selection-start-column="4" selection-end-line="106" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/yolov3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7084">
+          <caret line="327" selection-start-line="327" selection-end-line="327" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/py35/lib/python3.5/site-packages/tensorflow/python/summary/summary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4708">
+          <caret line="255" column="23" selection-start-line="255" selection-start-column="23" selection-end-line="255" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/py35/lib/python3.5/site-packages/tensorflow/python/summary/writer/writer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2112">
+          <caret line="115" column="16" selection-start-line="115" selection-start-column="16" selection-end-line="115" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+          <folding>
+            <element signature="e#364#374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+          <folding>
+            <element signature="e#38#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6556">
+          <caret line="303" column="19" selection-start-line="303" selection-start-column="19" selection-end-line="303" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1664">
+          <caret line="44" column="63" selection-start-line="44" selection-start-column="63" selection-end-line="44" selection-end-column="63" />
+          <folding>
+            <element signature="e#365#374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="199" selection-start-line="199" selection-end-line="199" />
+          <folding>
+            <element signature="e#363#372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

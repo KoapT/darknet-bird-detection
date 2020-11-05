@@ -1,0 +1,6 @@
+/home/wootion/TK/g-darknet/data/labeled/JPEGImages/w20190719093725711_73_epoch0_aug0x0.jpg
+/home/wootion/TK/g-darknet/data/labeled/JPEGImages/w20190719093725711_73_epoch0_aug2x1.jpg
+/home/wootion/TK/g-darknet/data/labeled/JPEGImages/w20190719093725711_71_epoch0_aug0x1.jpg
+/home/wootion/TK/g-darknet/data/labeled/JPEGImages/w20190719093725711_73.jpg
+/home/wootion/TK/g-darknet/data/labeled/JPEGImages/w20190719093725711_73_epoch0_aug2x0.jpg
+/home/wootion/TK/g-darknet/data/labeled/JPEGImages/w20190719093725711_71_epoch0_aug0x0.jpg

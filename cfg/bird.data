@@ -1,0 +1,6 @@
+classes = 2
+train  = /home/wootion/TK/g-darknet/data/labeled/train.txt
+valid  = /home/wootion/TK/g-darknet/data/labeled/valid.txt
+names  = /home/wootion/TK/g-darknet/data/names/bird-person.names
+backup = backup
+prefix = bird10
